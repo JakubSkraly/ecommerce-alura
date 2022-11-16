@@ -18,7 +18,7 @@ const MainHeader = () => {
     };
     return (
         <>
-            <header className="bg-[#FFFFFF] px-4 shadow">
+            <header className="fixed w-full bg-[#FFFFFF] px-4 shadow">
                 <div className="container mx-auto flex h-16 items-center justify-between md:gap-4">
                     <Logo />
                     <Nav className={menu} handleCloseMenu={handleCloseMenu} />

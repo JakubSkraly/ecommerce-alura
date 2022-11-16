@@ -7,6 +7,10 @@ module.exports = {
             fontFamily: {
                 sans: ["Poppins", ...defaultTheme.fontFamily.sans],
             },
+            backgroundImage: {
+                "hero":
+                    "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('@/assets/img/Hero.svg')",
+            },
         },
     },
     plugins: [],
