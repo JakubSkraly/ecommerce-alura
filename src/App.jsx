@@ -3,6 +3,7 @@ import "./App.css";
 import MainHeader from "./components/header/MainHeader";
 import MainHero from "./components/hero/MainHero";
 import MainProducts from "./components/product/MainProducts";
+import MainFooter from "./components/footer/MainFooter";
 
 const App = () => {
     return (
@@ -10,6 +11,7 @@ const App = () => {
             <MainHeader />
             <MainHero />
             <MainProducts />
+            <MainFooter />
         </>
     );
 };
