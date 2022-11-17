@@ -4,7 +4,7 @@ const ProfileButtons = ({ className, handleCloseProfile }) => {
     return (
         <>
             <div className={className}>
-                <div className="absolute top-20 right-[5%] z-10 flex h-28 w-[90%] items-center gap-4 rounded-3xl bg-[#FFFFFF] p-4 shadow md:right-4 md:w-80">
+                <div className="absolute top-20 right-[5%] z-10 flex h-28 w-[90%] items-center gap-4 rounded-3xl bg-[#FFFFFF] p-4 shadow md:right-4 md:w-80 lg:right-16">
                     <button className="h-12 w-40 rounded-xl bg-[#2A7AE4] p-2 font-medium text-[#FFFFFF] shadow-lg shadow-blue-500/50">
                         Iniciar Sesión
                     </button>
